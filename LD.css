@@ -556,6 +556,8 @@ td {
         left: 50%;
         transform: translateX(-50%);
         width: 90%;
+        height: 65%;
+        overflow-y: auto;
         text-align: justify;
         line-height: 1.5;
         text-shadow: 0 0 4px #fff, 0 0 6px #fff, 0 0 8px #fff;
