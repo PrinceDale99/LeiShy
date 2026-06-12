@@ -452,6 +452,7 @@ input::placeholder {
 
 @media (min-width: 769px) and (max-width: 1400px) {
     body, html { overflow-x: hidden; width: 100%; }
+    .abl, .abs, .St { margin-bottom: 15vw; }
     .ablt p, .ablt2 p, .abst p, .abst2 p, button, .cards-wrapper { animation: none !important; opacity: 1 !important; }
     .logo { padding-right: 0; text-align: left; }
     .cv { font-size: 4.5vw; }
@@ -467,6 +468,7 @@ input::placeholder {
 }
 
 @media (max-width: 768px) {
+    .abl, .abs, .St { margin-bottom: 30vw; }
     .ablt p, .ablt2 p, .abst p, .abst2 p, button, .cards-wrapper {
         animation: none !important;
         opacity: 1 !important;

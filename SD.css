@@ -496,6 +496,7 @@ td {
 
 @media (min-width: 769px) and (max-width: 1400px) {
     body, html { overflow-x: hidden; width: 100%; }
+    .l1, .l2, .l3, .l4, .l5 { margin-bottom: 15vw; }
     .logo { padding-right: 0; text-align: center; }
     .lt p, .lt2 p, .l2t, table, .l3t, .l3i, .l4t, .l4, .l5t, .l5i { animation: none !important; opacity: 1 !important; }
     .lt { font-size: 5vw; top: 18%; left: 8%; }
@@ -522,6 +523,9 @@ td {
         overflow-x: hidden;
         width: 100%;
     }
+    
+    .l1, .l2, .l3, .l5 { margin-bottom: 30vw; }
+    .l4 { margin-bottom: 120vw; }
 
     .lt p, .lt2 p, .l2t, table, .l3t, .l3i, .l4t, .l4, .l5t, .l5i {
         animation: none !important;
