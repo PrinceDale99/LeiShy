@@ -452,7 +452,6 @@ input::placeholder {
 
 @media (min-width: 769px) and (max-width: 1400px) {
     body, html { overflow-x: hidden; width: 100%; }
-    .abl, .abs, .St { margin-bottom: 15vw; }
     .ablt p, .ablt2 p, .abst p, .abst2 p, button, .cards-wrapper { animation: none !important; opacity: 1 !important; }
     .logo { padding-right: 0; text-align: left; }
     .cv { font-size: 4.5vw; }
@@ -468,7 +467,6 @@ input::placeholder {
 }
 
 @media (max-width: 768px) {
-    .abl, .abs, .St { margin-bottom: 30vw; }
     .ablt p, .ablt2 p, .abst p, .abst2 p, button, .cards-wrapper {
         animation: none !important;
         opacity: 1 !important;
@@ -497,8 +495,8 @@ input::placeholder {
     }
 
     .ablt {
-        font-size: 28px;
-        top: 62%;
+        font-size: 5vw;
+        top: 55%;
         left: 50%;
         transform: translateX(-50%);
         width: 90%;
@@ -506,12 +504,13 @@ input::placeholder {
     }
 
     .ablt2 {
-        font-size: 14px;
-        top: 68%;
+        font-size: 3vw;
+        top: 62%;
         left: 50%;
         transform: translateX(-50%);
         width: 90%;
         text-align: center;
+        line-height: 1.2;
     }
 
     .abs > picture > img, .abs > img {
@@ -521,8 +520,8 @@ input::placeholder {
     }
 
     .abst {
-        font-size: 28px;
-        top: 62%;
+        font-size: 5vw;
+        top: 55%;
         left: 50%;
         transform: translateX(-50%);
         width: 90%;
@@ -530,12 +529,19 @@ input::placeholder {
     }
 
     .abst2 {
-        font-size: 14px;
-        top: 68%;
+        font-size: 3vw;
+        top: 62%;
         left: 50%;
         transform: translateX(-50%);
         width: 90%;
         text-align: center;
+        line-height: 1.2;
+    }
+
+    .button-57, .button-58 {
+        padding: 8px 12px;
+        font-size: 3vw;
+        margin-top: 5px;
     }
 
     .contact > picture > img, .contact > img {
@@ -561,28 +567,29 @@ input::placeholder {
 
     .cards-wrapper {
         flex-direction: column;
-        gap: 15px;
+        gap: 10px;
         width: 90%;
-        top: 15%;
+        top: 10%;
         left: 50%;
         transform: translateX(-50%);
     }
 
     .box {
-        padding: 25px 15px;
+        padding: 15px 10px;
     }
 
     .box h3 {
-        font-size: 28px;
-        margin: 0 0 10px 0;
+        font-size: 5vw;
+        margin: 0 0 5px 0;
     }
 
     .box p {
-        font-size: 16px;
+        font-size: 3vw;
     }
 
     input[type=email] {
         width: 85%;
+        padding: 6px 8px;
     }
 
     .site-footer {
