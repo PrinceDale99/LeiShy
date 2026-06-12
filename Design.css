@@ -1,0 +1,612 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.navbar {
+    padding: 10px 20px;
+    margin: 0%;
+    display: flex;
+    background-color: #f2743a; 
+}
+
+.nav {
+    align-items: center;
+    gap: 20px;
+    display: flex;
+}
+
+.navbar a {
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0%;
+}
+
+.navbar a:hover {
+    color: #b94a00;
+    border-color: #ffdd00;
+    border-style: dotted;
+    border-radius: 10px;
+    border-width: 5px;
+    padding: 5px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+
+.cont1 {
+    position: relative;
+    text-align: center;
+}
+
+.cont1 img {
+    display: block;
+    width: 100%; 
+    height: auto;
+}
+
+.cv {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-family: "Ranchers", sans-serif;
+    font-size: 54px;
+    color: #e67904;
+    font-weight: 500;
+    transform: translate(-50%, -50%) rotate(-8deg);
+}
+
+.abl{
+   position: relative;
+   text-align: left;
+}
+
+.abl img{
+display: block;
+}
+
+.ablt {
+    position: absolute;
+    font-family: "Ranchers", sans-serif;
+    font-size: 80px ;
+    font-weight: 550;
+    color: #e67904;
+    top: 130px;
+    left: 130px;
+}
+
+.ablt p, .ablt2 p {
+    margin: 0;
+    animation: fall-in linear both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%; 
+}
+
+.ablt2 {
+    position: absolute;
+    top: 250px;
+    left: 140px;
+    font-family: sans-serif; 
+    font-size: 24px; 
+    font-weight: 500; 
+    color: #e67904; 
+    max-width: 600px; 
+    line-height: 1.5; 
+    text-align: justify;
+}
+
+.abs{
+   position: relative;
+   text-align: right;
+}
+
+.abs img{
+    display: block;
+}
+
+.abst {
+    position: absolute;
+    font-family: "Ranchers", sans-serif;
+    font-size: 80px ;
+    font-weight: 550;
+    color: #e67904;
+    top: 110px;
+    right: 100px;
+}
+
+.abst p, .abst2 p {
+    margin: 0; 
+    animation: fall-in linear both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%; 
+}
+
+
+
+.abst2 {
+    position: absolute;
+    top: 200px;
+    right: 125px;
+    font-family: sans-serif; 
+    font-size: 24px; 
+    font-weight: 500; 
+    color: #e67904; 
+    max-width: 600px; 
+    line-height: 1.5; 
+    text-align: right;
+}
+
+button {
+    animation: fall-in linear both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%; 
+}
+
+.button-57 {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #18181a;
+  color: #084600;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 15px;
+  padding: 18px 18px 17px;
+  text-decoration: none;
+  cursor: pointer;
+  background: #ffd61f;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  border-radius: 15px;
+}
+
+.button-57 span:first-child {
+  position: relative;
+  transition: color 600ms cubic-bezier(0.48, 0, 0.12, 1);
+  z-index: 10;
+}
+
+.button-57 span:last-child {
+  color: white;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  transition: all 500ms cubic-bezier(0.48, 0, 0.12, 1);
+  z-index: 100;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  transform: translateY(225%) translateX(-50%);
+  height: 14px;
+  line-height: 13px;
+}
+
+.button-57:after {
+  content: "";
+  position: absolute;
+  bottom: -50%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #e67904;
+  transform-origin: bottom center;
+  transition: transform 600ms cubic-bezier(0.48, 0, 0.12, 1);
+  transform: skewY(9.3deg) scaleY(0);
+  z-index: 50;
+  font-weight: bolder;
+}
+
+.button-57:hover:after {
+  transform-origin: bottom center;
+  transform: skewY(9.3deg) scaleY(2);
+}
+
+.button-57:hover span:last-child {
+  transform: translateX(-50%) translateY(-100%);
+  opacity: 1;
+  transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1);
+}
+
+.button-58 {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #18181a;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 15px;
+  padding: 18px 18px 17px;
+  text-decoration: none;
+  cursor: pointer;
+  background: #e67904;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  border-radius: 15px;
+}
+
+.button-58 span:first-child {
+  position: relative;
+  transition: color 600ms cubic-bezier(0.48, 0, 0.12, 1);
+  z-index: 10;
+}
+
+.button-58 span:last-child {
+  color: #18181a;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  transition: all 500ms cubic-bezier(0.48, 0, 0.12, 1);
+  z-index: 100;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  transform: translateY(225%) translateX(-50%);
+  height: 14px;
+  line-height: 13px;
+}
+
+.button-58:after {
+  content: "";
+  position: absolute;
+  bottom: -50%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffd61f;
+  transform-origin: bottom center;
+  transition: transform 600ms cubic-bezier(0.48, 0, 0.12, 1);
+  transform: skewY(9.3deg) scaleY(0);
+  z-index: 50;
+  font-weight: bolder;
+}
+
+.button-58:hover:after {
+  transform-origin: bottom center;
+  transform: skewY(9.3deg) scaleY(2);
+}
+
+.button-58:hover span:last-child {
+  transform: translateX(-50%) translateY(-100%);
+  opacity: 1;
+  transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1);
+}
+
+.contact{
+    position: relative;
+    text-align: center; 
+}
+
+.contact img {
+   display: block;
+}
+
+.ct {
+    position: absolute;
+    font-family: "Ranchers", sans-serif;
+    font-size: 40px ;
+    font-weight: 400;
+    color: #e67904;
+    top: 100px;
+    left: 620px;
+}
+
+.ct h1 {
+    margin: 0;
+}
+
+.St {
+    position: relative;
+    text-align: center; 
+}
+
+.St img {
+   display: block;
+}
+
+.cards-wrapper{
+    animation: fall-in linear both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%; 
+}
+
+.cards-wrapper {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1200px;
+    width: calc(100% - 80px); 
+    z-index: 2;
+    
+    top: 220px; 
+    left: 160px;
+    transform: translateX(-50%);
+}
+
+.box {
+    flex: 1; 
+    padding: 50px 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: default;
+}
+
+.box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15); 
+    z-index: 10; 
+}
+
+.box h3 {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0 0 15px 0;
+    font-family: "Ranchers", sans-serif;
+    font-size: 40px ;
+    font-weight: 400;
+    color: #e67904;
+}
+
+.box p {
+    font-size: 24px; 
+    line-height: 1.6;
+    margin: 0;
+    color: #039889;
+}
+
+/* Box 1 (Pink) */
+.box1 {
+    background-color: #f9f9f9;
+    border: 10px dashed #b5e6e1;
+}
+
+input[type=email] {
+    width: 30%;
+    padding: 10px 10px;
+    border-color:#b5e6e1;
+    box-shadow: none;
+    outline: none;
+}
+
+input::placeholder {
+   color: #00d7c2;
+    font-size: 15px;
+    font-family: cursive;
+}
+
+.site-footer {
+    background-color: #f37337; 
+    padding: 40px 20px;
+    font-family: sans-serif;
+    margin-top: 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px; 
+}
+
+.footer-credit {
+    margin: 0%; 
+    color: #ffffff; 
+    font-family: cursive; 
+    font-weight: bold; 
+    font-size: 18px; 
+}
+
+.footer-links a {
+    font-family: cursive;     
+    font-weight: bold;         
+    font-size: 18px;           
+    color: #ffffff;          
+    text-decoration: none;    
+    margin: 0 15px;           
+    border-width: 5px;         
+    padding: 6px 12px; 
+    display: inline-block;
+    transition: all 0.3s ease; 
+}
+
+.footer-links a:hover {
+    color: #b94a00;
+    border-style: dotted;      
+    border-color: #ffdd00;     
+    border-radius: 10px;          
+
+}
+
+@media (min-width: 768px) {
+    .footer-container {
+        flex-direction: row;
+        justify-content: space-between; 
+    }
+}
+
+/*try lang */
+@keyframes fall-in {
+    from {
+        opacity: 0;
+        transform: translateY(-100px); /* Starts 100px higher */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);      /* Drops to its normal place */
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 1400px) {
+    body, html { overflow-x: hidden; width: 100%; }
+    .ablt p, .ablt2 p, .abst p, .abst2 p, button, .cards-wrapper { animation: none !important; opacity: 1 !important; }
+    .logo { padding-right: 0; text-align: left; }
+    .cv { font-size: 4.5vw; }
+    .ablt { font-size: 6vw; top: 12%; left: 8%; }
+    .ablt2 { font-size: 2.2vw; top: 25%; left: 8%; max-width: 45vw; }
+    .abst { font-size: 6vw; top: 12%; right: 8%; }
+    .abst2 { font-size: 2.2vw; top: 25%; right: 8%; max-width: 45vw; }
+    .ct { font-size: 4vw; top: 8%; left: 50%; transform: translateX(-50%); }
+    .cards-wrapper { top: 22%; left: 50%; transform: translateX(-50%); width: 90vw; }
+    .box { padding: 20px 15px; }
+    .box h3 { font-size: 2.5vw; }
+    .box p { font-size: 1.5vw; }
+}
+
+@media (max-width: 768px) {
+    .ablt p, .ablt2 p, .abst p, .abst2 p, button, .cards-wrapper {
+        animation: none !important;
+        opacity: 1 !important;
+    }
+
+    .navbar { flex-direction: column; gap: 10px; text-align: center; }
+    .nav { flex-wrap: wrap; justify-content: center; gap: 12px; }
+
+    .logo {
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .cv {
+        font-size: 28px;
+        top: 48%; 
+        left: 50%; 
+        width: 90%;
+        transform: translate(-50%, -50%) rotate(-8deg);
+    }
+
+    .abl > picture > img, .abl > img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .ablt {
+        font-size: 28px;
+        top: 62%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        text-align: center;
+    }
+
+    .ablt2 {
+        font-size: 14px;
+        top: 68%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        text-align: center;
+    }
+
+    .abs > picture > img, .abs > img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .abst {
+        font-size: 28px;
+        top: 62%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        text-align: center;
+    }
+
+    .abst2 {
+        font-size: 14px;
+        top: 68%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        text-align: center;
+    }
+
+    .contact > picture > img, .contact > img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .ct {
+        font-size: 28px;
+        top: 6%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        text-align: center;
+    }
+
+    .St > picture > img, .St > img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .cards-wrapper {
+        flex-direction: column;
+        gap: 15px;
+        width: 90%;
+        top: 15%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .box {
+        padding: 25px 15px;
+    }
+
+    .box h3 {
+        font-size: 28px;
+        margin: 0 0 10px 0;
+    }
+
+    .box p {
+        font-size: 16px;
+    }
+
+    input[type=email] {
+        width: 85%;
+    }
+
+    .site-footer {
+        padding: 30px 15px; /* Reduced overall padding to save screen space */
+    }
+
+    .footer-container {
+        gap: 20px;          /* Slightly tighter gap between the credit and the links */
+    }
+
+    .footer-credit {
+        font-size: 14px;    /* Scaled down from 18px */
+        text-align: center; /* Ensures the text stays centered if it's long enough to drop to two lines */
+        line-height: 1.5;   
+    }
+
+    .footer-links {
+        display: flex;
+        flex-wrap: wrap;         /* Allows links to safely drop to the next line if they run out of space */
+        justify-content: center; /* Keeps wrapped links perfectly centered */
+        gap: 10px;               /* Adds a clean, predictable space between links */
+    }
+
+    .footer-links a {
+        font-size: 14px;    /* Scaled down from 18px */
+        margin: 0;          /* Removed the horizontal margin to rely on the flex 'gap' above instead */
+        padding: 5px 10px;  /* Slightly tighter padding */
+    }
+}
